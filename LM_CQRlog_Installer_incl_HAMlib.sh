@@ -34,9 +34,9 @@ echo "adding OK2CQR PPA to repositories"
 sleep 5
 add-apt-repository -y ppa:ok2cqr/ppa
 
-#Running aptget update
+#Running apt-get update
 clear
-echo "Running aptget update"
+echo "Running apt-get update"
 sleep 5
 apt-get update
 
