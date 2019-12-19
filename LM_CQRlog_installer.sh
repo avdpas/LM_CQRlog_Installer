@@ -1,7 +1,11 @@
 #!/bin/bash
 clear
 if [ "$EUID" -ne 0 ]
-  then echo "Please run script with sudo!"
+  then 
+  echo "Please run script with sudo!"
+  echo "like this: user@hostname:~$ sudo ./LM_CQRlog_installer.sh "
+  echo "your password will be asked...."
+  exit
   exit
 else
   echo "Check on root priviliges succesfull"
@@ -24,6 +28,13 @@ clear
 echo "Installing CQRlog"
 sleep 5
 apt-get -y install cqrlog
+
+#Installing CQRlog
+clear
+echo "Installing X-Planet"
+sleep 5
+apt-get -y install xplanet xplanet-images 
+
 
 #checking if user is a dialout member
 clear

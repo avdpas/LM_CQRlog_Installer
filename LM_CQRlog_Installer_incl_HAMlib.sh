@@ -46,6 +46,13 @@ echo "Installing CQRlog"
 sleep 5
 apt-get -y install cqrlog
 
+#Installing CQRlog
+clear
+echo "Installing X-Planet"
+sleep 5
+apt-get -y install xplanet xplanet-images 
+
+
 #checking if user is a dialout member
 clear
 echo "checking if user: $SUDO_USER , is a member of the dialout group" 
@@ -60,6 +67,7 @@ else
 fi
 
 
+####### Installing HAMlib.
 
 #installing build tools
 clear
