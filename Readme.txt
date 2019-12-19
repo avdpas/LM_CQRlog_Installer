@@ -31,6 +31,7 @@ So What does the script do.......
 - Add OK2CQR repository to your system so we can install it, and update it in the future using the normal update manager in Cinnamon
 - Update the apt cache
 - Install CQRlog
+- Install X-Planet and X-Planet-images
 - Checks if the user is a dialout member, if not he will be.
 - Download HAMlib 3.3 (you can configure the version in the script if a newer version has been released)
 - Install HAMlib 3.3
@@ -39,4 +40,4 @@ So What does the script do.......
 
 The scripts are tested on:
 - LM19.2
--
+- LM19.3
