@@ -1,7 +1,5 @@
 #### LM CQRlog installers.
-
-
-
+    
 LEGAL NOTICE!!!!!
 Be for we go any further.... I am not in anyway responsible if you use this script.
 I wrote this to install everything in a few minutes on my own system.
