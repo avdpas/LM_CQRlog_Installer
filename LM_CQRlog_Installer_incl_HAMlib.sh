@@ -1,7 +1,5 @@
 #!/bin/bash
 
-
-
 #First we check if we are running in root......
 clear
 if [ "$EUID" -ne 0 ]
